@@ -1,17 +1,37 @@
 p { 
 font-size : 12pt; 
-font-family : arial,helvetica; 
+font-family : arial; 
 font-weight : normal; 
 } 
+#contenedor{ 
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
 h1 { 
-font-size : 32pt; 
-font-family : verdana,arial; 
-text-decoration : underline; 
-text-align : center; 
-background-color : Teal; 
+font-size : 40pt; 
+font-family : "arial"; 
+text-align : center;  
+border-style:dashed;
 } 
 body { 
-background-color : #000000; 
-font-family : arial; 
-color : Green; 
+background-color :  #bbf2ea ; 
+font-family : arial;  
+}
+img{
+	width:50%;
+	height:50%;
+}
+button{
+	height:50px;
+	width:300px;
+	background-color:  #f9f97e;
+	font-weight: bold;
+}
+#cabecera{
+
+}
+#pie{
+	clear:both;
 }

@@ -6,16 +6,28 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-	<h1>Parque de atracciones</h1>
-	<form action="atracciones.php" method="post">
-		<input type="submit" value="Atracciones">	
-	</form>
-	<form action="establecimientos.php" method="post">
-		<input type="submit" value="Establecimientos">	
-	</form>
-	<form action="empleados.php" method="post">
-		<input type="submit" value="Empleados">	
-	</form>
+	<div id="contenedor">
+		<div id="cabecera">
+			<h1>Parque de atracciones</h1><br>
+		</div>
+		<div id="contenido">
+			<form action="atracciones.php" method="post">
+				<img src="img/coaster.jpg" />
+				<button type="submit">Atracciones</button>
+			</form>
+			<form action="establecimientos.php" method="post">
+				<img src="img/tienda.jpg" />
+				<button type="submit">Establecimientos</button>
+			</form>
+			<form action="empleados.php" method="post">
+				<img src="img/empleado.png" />
+				<button type="submit">Empleados</button>
+			</form>
+		</div>
+		<div id="pie">
+			Copyright © Mario Bocos 2019
+		</div>
+	</div>
 
 </body>
 </html>
